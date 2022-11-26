@@ -28,9 +28,10 @@ export default function Home() {
             width={500}
             height={500}
           />
-          <h1>100$ per night</h1>
+          <h1>Bukkis Start from this man...........</h1>
           <p>
-            contact here: <a href="tel:+923040963282">03040963282</a>
+            A living Legend, A great human being, A great friend, A great
+            brother
           </p>
         </div>
       </main>
