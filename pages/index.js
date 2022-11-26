@@ -16,6 +16,7 @@ export default function Home() {
           <li>Basharat</li>
           <li>Usman</li>
           <li>Kashif</li>
+          <li>Khalid</li>
           <li>Idrees</li>
           <li>Saif</li>
         </ul>
