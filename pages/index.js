@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -20,6 +21,18 @@ export default function Home() {
           <li>Idrees</li>
           <li>Saif</li>
         </ul>
+        <div>
+          <Image
+            src="/basharat.jpeg"
+            alt="Picture of the author"
+            width={500}
+            height={500}
+          />
+          <h1>100$ per night</h1>
+          <p>
+            contact here: <a href="tel:+923040963282">03040963282</a>
+          </p>
+        </div>
       </main>
 
       <footer className={styles.footer}>Bukkis @ 2022</footer>
