@@ -18,7 +18,7 @@ const SignInForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="pt-8 pb-8 flex flex-col bg-white max-w-2xl mx-auto pl-8 pr-8 rounded-lg shadow-sm h-96 border border-gray-200"
+      className="pt-8 pb-8 flex flex-col bg-white w-full  pl-8 pr-8 rounded-lg shadow-sm h-96 border border-gray-200"
     >
       <h1 className="text-2xl font-bold mb-8 text-center">Sign In</h1>
       <label className="flex flex-col">
@@ -45,7 +45,7 @@ const SignInForm = () => {
       >
         Sign in
       </button>
-      {/* {error && <p>{error.message}</p>} */}
+      {error && <p>{error.message}</p>}
     </form>
   );
 };

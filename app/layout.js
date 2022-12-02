@@ -9,9 +9,11 @@ export default function RootLayout({ children }) {
   return (
     <html className={poppins.className}>
       <head />
-      <body className="bg-gray-100">
+      <body className="bg-gray-100 flex flex-col min-h-screen">
         <Navbar />
-        <main className="mt-16 py-4 px-8 max-w-6xl mx-auto">{children}</main>
+        <main className="mt-16 py-4 px-8 max-w-6xl mx-auto flex-grow">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
