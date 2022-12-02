@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { signIn } from "next-auth/react";
 
 const Navbar = () => {
   return (
@@ -10,11 +11,16 @@ const Navbar = () => {
         </Link>
         <ul className="flex items-center gap-x-2 md:gap-x-4 text-base md:text-lg font-medium">
           <li>
-            <Link href="/" className="hover:opacity-70">
+            <Link href="/" className="hover:opacity-80">
               Home
             </Link>
           </li>
-          <li>Login</li>
+          <li
+            onClick={() => signIn()}
+            className="hover:opacity-80 cursor-pointer"
+          >
+            Login
+          </li>
           <li>Signup</li>
         </ul>
       </div>
