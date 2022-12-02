@@ -1,10 +1,6 @@
-import SignInForm from "@/components/Forms/signin";
+import SignInForm from "@/components/forms/signin";
 const SignInPage = () => {
-  return (
-    <div className="w-96 mx-auto">
-      <SignInForm />
-    </div>
-  );
+  return <SignInForm />;
 };
 
 export default SignInPage;
